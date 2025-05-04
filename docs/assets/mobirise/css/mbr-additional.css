@@ -783,6 +783,11 @@ a {
 }
 .cid-uKdtGxzKRQ {
   display: flex;
+  background-image: url("../../../assets/images/fullhd-4k-100-royalty-free-stock-footage-technology-hud-element-intro-background-no-copyright-v.gif");
+}
+.cid-uKdtGxzKRQ .mbr-overlay {
+  background-color: #000000;
+  opacity: 0.5;
 }
 @media (min-width: 768px) {
   .cid-uKdtGxzKRQ {
@@ -824,7 +829,6 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
-  background-image: url("../../../assets/images/background1.jpg");
 }
 .cid-uKdtGxzKRQ .mbr-section-title,
 .cid-uKdtGxzKRQ .mbr-section-subtitle {

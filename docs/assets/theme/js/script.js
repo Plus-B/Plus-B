@@ -1762,7 +1762,7 @@ document.getElementsByTagName("body")[0].setAttribute("style", "z-index: 0");
     a.id = "top-1";
     a.style = "display: none";
     a.innerHTML =
-      '<a href="https://mobirise.com/offline-website-builder.html">Offline Website Builder</a> Mobirise v6.0.1 <a href="https://mobirise.com/builder/ai-website-generator.html">Best AI Website Generator</a>';
+      '<a href="https://mobirise.com/offline-website-builder.html">Offline Website Maker</a> Mobirise v6.0.1 <a href="https://mobirise.com/builder/ai-website-maker.html">Free AI Website Maker</a>';
     document.body.insertBefore(a, document.body.childNodes[0]);
   }
 })();

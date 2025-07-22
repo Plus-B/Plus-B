@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "format": "prettier --write docs"
+    "format": "prettier --write docs",
+    "clean": "npm run format && node ./scripts/remove-mobirise-img.js ./docs"
   },
   "author": "",
   "license": "ISC",

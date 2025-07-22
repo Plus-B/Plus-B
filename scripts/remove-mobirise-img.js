@@ -24,10 +24,14 @@ async function processHtmlFile(filePath) {
 
             const $ = cheerio.load(html);
 
-            // 特定の<img>タグを検索して削除
-            // Mobiriseが追加する余計なimgタグの特定パターンに基づいています。
-            // 必要に応じてセレクタを調整してください。
-            $('img[alt=""][style="height: 4rem"][src^="data:image/gif;base64"]').remove();
+            // // 特定の<img>タグを検索して削除
+            // // Mobiriseが追加する余計なimgタグの特定パターンに基づいています。
+            // // 必要に応じてセレクタを調整してください。
+            // $('img[alt=""][style="height: 4rem"][src^="data:image/gif;base64"]').remove();
+
+            // Mobiriseのクレジット表記<section>を削除
+            // class="display-7" かつ style属性に"height: 4rem"を含む<section>を削除
+            $('section.display-7[style*="height: 4rem"]').remove();
 
             // 変更されたHTMLを取得
             const cleanedHtml = $.html();

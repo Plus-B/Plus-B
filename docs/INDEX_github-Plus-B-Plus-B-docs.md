@@ -24,4 +24,3 @@ summary: このディレクトリ(/github/Plus-B/Plus-B/docs)は〜〜〜を格�
 2 directories, 5 files
 
 ```
-
